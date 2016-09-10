@@ -1,0 +1,20 @@
+<h1 align="center">doctors activity   </h1>
+<b>Give the your professional details by filling the form by registering <br>before login if you dont have an account:</b><br>
+
+
+
+<!--form for login-->
+      <center>
+      <h1>Log in</h1></br></br>
+<%= form_tag(:controller=> 'doctors', :action => 'login') do %>
+         <p>doctors number </br><%= text_field_tag(:doctor_no) %></p></br></br>
+         <p>Password </br><%= password_field_tag  :password %></p></br>
+        <%= submit_tag("Log In") %></br></br>
+<% end %>
+
+      </center>
+      <a href="/doctors/new" style="align:left;color:orange;"><h2><b>register</b></h2> </a>here if you dont have an account
+
+
+
+</body>

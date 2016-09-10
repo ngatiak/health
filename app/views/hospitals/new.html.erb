@@ -1,0 +1,26 @@
+<h1 align="center">welcome to hospital data capturing system </h1>
+<b>Give the hospital details by filling the form below<br>before you proceed:</b><br><br>
+
+
+
+<!--form for registering hospital-->
+      <center>
+        <%= form_for @hospital do |f| %><br><br>
+          <%= f.label :name_of_hospital %><br>
+          <%= f.text_field :name_of_hospital %><br><br>
+          <%= f.label :hospital_no %><br>
+            <%= f.text_field :hospital_no %><br><br>
+          <%= f.label :hospital_location %><i class="fa fa-fw fa-map-marker" style="color:red;"></i><br>
+          <%= f.text_field :hospital_location %><br><br>
+          <%= f.label :hospital_level %><br>
+          <%= f.text_field :hospital_level %><br><br>
+          <%= f.label :hospital_contact %><i class="fa fa-fw fa-phone"style="color:red;"></i><br>
+            <%= f.text_field :hospital_contact %><br><br>
+          <%= f.submit "create" %>
+        <% end %>
+
+
+      </center>
+
+
+</body>

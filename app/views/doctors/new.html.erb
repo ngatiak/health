@@ -1,0 +1,29 @@
+<h1 align="center">give your details to have your account  </h1>
+<b>Give the your professional details by filling the form below<br>before login if you dont have an account:</b>
+
+
+
+<!--form for registering hospital-->
+      <center>
+        <%= form_for @doctor do |f| %><br>
+               <%= f.label :first_name %><br>
+                    <%= f.text_field :first_name %><br><br>
+               <%= f.label :second_name %><br>
+                   <%= f.text_field :second_name %><br><br>
+               <%= f.label :doctor_no %><br>
+                   <%= f.text_field :doctor_no %><br><br>
+               <%= f.label :speciality %><br>
+                   <%= f.text_field :speciality %><br><br>
+               <%= f.label :doctor_contact %><br>
+                   <%= f.text_field :doctor_contact %><br><br>
+               <%= f.label :password %><br>
+                   <%= f.password_field :password %>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <%= f.submit "create" %>
+        <% end %>
+
+
+      </center>
+
+
+</body>

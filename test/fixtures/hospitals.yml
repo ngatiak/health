@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_of_hospital: MyString
+  hospital_no: MyString
+  hospital_location: MyString
+  hospital_level: MyString
+  hospital_contact: MyString
+
+two:
+  name_of_hospital: MyString
+  hospital_no: MyString
+  hospital_location: MyString
+  hospital_level: MyString
+  hospital_contact: MyString
